@@ -12,7 +12,7 @@ import {
 const welcomePage = () => {
     return (
         <View style={styles.container}>
-            <Text>خوش آمدید</Text>
+            <Text style={styles.head}>خوش آمدید</Text>
         </View>
     );
 };
@@ -22,7 +22,7 @@ const styles = StyleSheet.create({
         flex: 1,
         backgroundColor: "#fff",
         flexDirection: "column",
-        justifyContent: "center",
+        justifyContent: "flex-start",
         backgroundColor: "#fff",
         paddingHorizontal: 10,
     },
@@ -30,6 +30,7 @@ const styles = StyleSheet.create({
         fontSize: 25,
         fontWeight: "bold",
         textAlign: "center",
+        marginTop: 20,
     },
     textBox: {
         borderWidth: 1,
